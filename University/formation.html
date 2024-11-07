@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="OIP.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php"><h5 class ="blue">LUCAS University College</h5></a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="formation.html">Formations</a></li>
+                <li><a href="cout.html">Coûts</a></li>
+                <li><a href="partenaire.html">Partenaires</a></li>
+            </ul>
+            <form class="search" action="recherche.php" method="post">
+                <input type="text" name="recherche" placeholder="Recherche">
+                <input type="submit" value="Rechercher">
+            </form>
+            <button id="dark-mode-toggle" class="btn btn-light" title="Thème clair"><i class="bi bi-moon" title="Thème clair"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Nos Formations</h1>
+        </section>
+        <section>
+            
+            <div class="formation">
+                <h2>Informatique</h2>
+                <p>Formation en Sécurité Informatique, Développement Web, Réseaux, etc.</p>
+                <ul>
+                    <li>Sécurité Informatique</li>
+                    <li>Développement d'application</li>
+                    <li>Gestion des Réseaux et des Systèmes</li>
+                    <li>Data Science et Analyse</li>
+                </ul>
+            </div>
+            <div class="formation">
+                <h2>Gestion</h2>
+                <p>Formation en Management, Finance, Marketing, etc.</p>
+                <ul>
+                    <li>Gestion Stratégique d'Entreprise</li>
+                    <li>Finance d'Entreprise et Analyse Financière</li>
+                    <li>Marketing Digital et Stratégique</li>
+                    <li>Transport logistique</li>
+                    <li>Comptabilité contrôle et audit</li>
+                    <li>Management des Ressources Humaines</li>
+                </ul>
+            </div>
+            <div class="formation">
+                <h2>Sciences Humaines:</h2>
+                <p>Formation en Hôtellerie, Tourisme, Gestion d'événements, etc.</p>
+                <ul>
+                    <li>Gestion Hôtelière et de la Restauration</li>
+                    <li>Tourisme Durable et Responsable</li>
+                    <li>Organisation d'Événements et Gestion des Services</li>
+                </ul>
+            </div>
+            <!-- Ajoutez d'autres formations selon vos besoins -->
+        </section>
+        
+        
+    
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Votre Site Web. Tous droits réservés.</p>
+        <p><a href="politique.php">Politique de confidentialité</a> | <a href="termes.php">Termes et conditions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

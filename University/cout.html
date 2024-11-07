@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="OIP.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php"><h5 class ="blue">LUCAS University College</h5></a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="formation.html">Formations</a></li>
+                <li><a href="cout.html">Coûts</a></li>
+                <li><a href="partenaire.html">Partenaires</a></li>
+            </ul>
+            <form class="search" action="recherche.php" method="post">
+                <input type="text" name="recherche" placeholder="Recherche">
+                <input type="submit" value="Rechercher">
+            </form>
+            <button id="dark-mode-toggle" class="btn btn-light" title="Thème clair"><i class="bi bi-moon" title="Thème clair"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Nos frais de formation</h1>
+        </section>
+        <section>
+            <h1>Coûts des Formations par années</h1>
+            <div class="formation-cost">
+                <h2>Nos BTS</h2>
+                <p>Coûts des formations en BTS .</p>
+                <ul>
+                    <li>Informatique - 500 000 FCFA</li>
+                    <li>Gestion - 600 000 FCFA</li>
+                    <li>Sciences humaines - 550 000 FCFA</li>
+                    <!-- Ajoutez d'autres coûts de formation selon vos besoins -->
+                </ul>
+            </div>
+            <div class="formation-cost">
+                <h2>Nos Licences </h2>
+                <p>Coûts des formations en Licence .</p>
+                <ul>
+                    <li>Informatique - 750 000 FCFA</li>
+                    <li>Gestion - 650 000 FCFA</li>
+                    <li>Sciences humaines - 700 000 FCFA</li>
+                    <!-- Ajoutez d'autres coûts de formation selon vos besoins -->
+                </ul>
+            </div>
+            <div class="formation-cost">
+                <h2>Nos Masters</h2>
+                <p>Coûts des formations en Master .</p>
+                <ul>
+                    <li>Informatique - 800 000 FCFA</li>
+                    <li>Gestion - 700 000 FCFA</li>
+                    <li>Sciences humaines - 750 000 FCFA</li>
+                    <!-- Ajoutez d'autres coûts de formation selon vos besoins -->
+                </ul>
+            </div>
+            <!-- Ajoutez d'autres sections de coûts selon vos besoins -->
+        </section>
+    
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Votre Site Web. Tous droits réservés.</p>
+        <p><a href="politique.php">Politique de confidentialité</a> | <a href="termes.php">Termes et conditions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

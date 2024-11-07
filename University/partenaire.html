@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="OIP.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php"><h5 class ="blue">LUCAS University College</h5></a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="formation.html">Formations</a></li>
+                <li><a href="cout.html">Coûts</a></li>
+                <li><a href="partenaire.html">Partenaires</a></li>
+            </ul>
+            <form class="search" action="recherche.php" method="post">
+                <input type="text" name="recherche" placeholder="Recherche">
+                <input type="submit" value="Rechercher">
+            </form>
+            <button id="dark-mode-toggle" class="btn btn-light" title="Thème clair"><i class="bi bi-moon" title="Thème clair"></i></button>
+        </nav>
+    </header>
+
+    <title>Nos Partenaires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .partner {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .partner h2 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .partner p {
+            color: #555;
+        }
+    </style>
+</head>
+<body><section>
+    <div class="container">
+        <h1>NOS PARTENAIRES INTERNATIONAUX</h1>
+        <p>Nos partenariats vous offrent des formateurs de renom, des programmes d’échange, des opportunités d’études à l’étranger, l’opportunité de préparer à LUCAS leur diplôme en plus du diplôme LUCAS.</p>
+        </section>
+        <section>
+        <div class="partner">
+            <h2>3wacademy</h2>
+            <p>Ecole de formation aux métiers du développement Web et Mobile. Créée en 2012, elle a formé déjà plus de 6.000 codeurs, dans des formations courtes et des formations diplômantes qui vont jusqu’au bac+5. Les formations sont toutes labellisées Grande École du Numérique car elles permettent à des personnes de tous horizons de se former au développement.</p>
+        </div>
+
+        <div class="partner">
+            <h2>Griffith College, Ireland</h2>
+            <p>Créé en 1974, Griffith College est l’un des plus grands établissements d’enseignement universitaire d’Irlande offrant des programmes menant à des diplômes internationaux aux niveaux Licence et Master.</p>
+        </div>
+
+        <div class="partner">
+            <h2>MyDigitalSchool, France</h2>
+            <p>MyDigitalSchool, France, est un établissement supérieur d’enseignement du digital et multimédia qui forme les professionnels du numérique aux besoins des entreprises et des professionnels.</p>
+        </div>
+
+        <div class="partner">
+            <h2>MBway, France</h2>
+            <p>La mission du groupe MBway est de former des professionnels et des gestionnaires dans divers domaines. MBWay est basé en France avec une présence dans plusieurs pays Africains.</p>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Votre Site Web. Tous droits réservés.</p>
+        <p><a href="politique.php">Politique de confidentialité</a> | <a href="termes.php">Termes et conditions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

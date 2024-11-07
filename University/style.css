@@ -1,0 +1,248 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #555;
+    --accent-color: #1abc9c;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --hover-color: #1abc9c;
+}
+
+body.dark-mode {
+    --primary-color: #f0f0f0;
+    --secondary-color: #ddd;
+    --accent-color: #16a085;
+    --background-color: #333;
+    --text-color: #fff;
+    --light-text-color: #333;
+    --hover-color: #16a084a6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMG.jpg');
+    /* background-color: var(--background-color); */
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    pointer-events: none;
+    z-index: 0;
+    font-weight: bold;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 20px 0;
+    color: var(--light-text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: var(--light-text-color);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: var(--hover-color);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search input[type="submit"] {
+    padding: 5px 10px;
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+#dark-mode-toggle {
+    padding: 5px 10px;
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.blue {
+    background-color: transparent !important;
+    color: blue !important;
+}
+
+.services {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    color: var(--light-text-color);
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+.service p {
+    margin: 0;
+}
+
+/* Style des détails */
+details {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+summary {
+    background-color: var(--background-color);
+    padding: 10px;
+    cursor: pointer;
+}
+
+details > div {
+    padding: 10px;
+}
+
+details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+details li {
+    margin-bottom: 5px;
+}
+
+details p {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #0056b3;
+}
+
+#messageStatus {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0cebb3da;
+    color: var(--text-color);
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+.servicet{
+    background-color: #3333332f;
+}
+h1 , h2, h3,h4 {
+    color: #0056b3;
+}
